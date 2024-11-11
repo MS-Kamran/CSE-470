@@ -1,0 +1,51 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .name {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0 0 0.5rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .priceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .price, .offerPrice {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .offerPrice {
+    color: #f85c50; /* Discounted price color */
+  }
+  
+  .originalPrice {
+    font-size: 0.9rem;
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  .rating {
+    font-size: 0.9rem;
+    color: #f8b400;
+  }
+  

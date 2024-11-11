@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #F8B400; /* Bakery-themed color */
+   
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navItem {
+    font-size: 1rem;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
